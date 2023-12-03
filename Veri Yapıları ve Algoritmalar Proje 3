@@ -1,0 +1,31 @@
+Veri Yapıları ve Algoritmalar Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+İlk önce dizinin ilk elemanını kök (root) olarak belirleyelim. Dizimiz: [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
+
+Kök: 7
+
+Sıradaki elemanı, kök ile karşılaştırarak dallara  ekleyelim:
+
+5, 7'nin solunda olacak.
+
+Diğer elemanları da sırayla ekleyelim:
+
+1, 5'in sol dalında olacak.
+8, 7'nin sağ dalında olacak.
+3, 5'in sağ dalında olacak.
+6, 3'ün sağ dalında olacak.
+0, 1'in sol dalında olacak.
+9, 8'in sağ dalında olacak.
+4, 3'ün sağ dalında olacak.
+2, 1'in sağ dalında olacak.
+
+      7
+     / \
+    5   8
+   / \   \
+  1   3   9
+ / \   \
+0   2    4
